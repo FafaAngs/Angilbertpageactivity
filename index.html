@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angilbert's Main Page</title>
+    <link rel="stylesheet" href="mywebstyle.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+
+    <div class="center-box">
+        <header>
+            <img src="ctu.png" alt="Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <div class="circle">
+            <img src="examplepic.jpg" alt="Big Picture">
+            <h2>
+                <p class="name-text">Angilbert Angcon</p>
+                <p class="details">
+                    A passionate <span class="highlights">Game / Software Developer</span> with a 
+                    <br>
+                    deep love for creating immersive digital experiences.
+                </p>
+            </h2>   
+        </div>
+        <div class="cert">
+            
+            Click
+            <a href="https://courses.buri.io/view/user/certificate/8ecb01fc-d227-49ae-a3cf-188b1a4c3a0f/pdf?trk=public_profile_see-credential" 
+            target="_blank">here</a>
+
+            to view Web Certificate
+        </div>
+
+
+
+
+        <div class="socials">
+            <div class="facebooklogo"><img src="facebooklogo.jpg" alt="facebooklogo" ></div>
+            <div class="Xlogo"><img src="Xlogo.jpg" alt="Xlogo" ></div>
+            <div class="instalogo" ><img src="discordlogo.png" alt="instalogo"></div>
+            <div class="linkedinlogo"><img src="linkedinlogo.png" alt="linkedinlogo"></div>
+        
+         
+            
+            
+        </div>
+
+    </div>
+
+    
+
+    <script type="text/javascript">
+        gsap.to(".logo", {
+            y: -20,
+            duration: 1,
+            yoyo: true,
+            repeat: -1,
+            ease: "sine.inOut"
+        });
+    </script>
+
+
+</body>
+
+</html>
